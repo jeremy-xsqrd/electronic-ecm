@@ -235,7 +235,7 @@ h2.page_title span {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.5px;
-  background-color: #fa824c;
+  background-color: #a30000;
   padding: 5px;
   margin: 0 0 0 5px;
 }
@@ -257,7 +257,7 @@ h3.page_subtitle {
   font-weight: 300;
   padding: 10px 0 10px 5%;
   margin: 0px 0 15px 0;
-  background-color: #fa824c;
+  background-color: #a30000;
   display: inline-block;
   letter-spacing: -0.5px;
 }
@@ -293,7 +293,7 @@ h3.page_subtitle {
   color: #fafffdff;
 }
 .logo_text a span {
-  color: #fa824c;
+  color: #a30000;
 }
 .logo_image a img {
   display: inline-block;
@@ -338,7 +338,7 @@ h3.page_subtitle {
   font-size: 10px;
   width: 15px;
   height: 15px;
-  background-color: #425d58;
+  background-color: #223836;
   color: #fafffd;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -355,7 +355,7 @@ h3.page_subtitle {
   padding: 12px 0 0 0;
 }
 .navbarpages.navbarpagesbg {
-  background-color: #425d58;
+  background-color: #4a605f;
 }
 /*===============================================*/
 /* 5. CUSTOM BUTTONS */
@@ -369,7 +369,7 @@ a.button_full {
   text-align: center;
 }
 a.button_small {
-  background-color: #fa824c;
+  background-color: #dd2c00;
   display: inline-block;
   color: #fafffdff;
   padding: 10px 20px;
@@ -405,7 +405,7 @@ a.button_small {
   background-color: #f7f7f7;
 }
 .button.active {
-  background: #fa824c;
+  background: #a30000;
   color: #fafffdff;
 }
 .buttons-row .button:first-child {
@@ -416,7 +416,7 @@ a.button_small {
   border-radius: 0px 0px 0px 0px;
 }
 .btyellow {
-  background-color: #fa824c;
+  background-color: #a30000;
   color: #fafffdff;
 }
 .btmint {
@@ -442,14 +442,14 @@ a.button_small {
   transform: translate3d(0, 0, 0);
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
-  color: #fafffdff;
+  color: #dd2c00;
 }
 .panel-left,
 .pagepanel {
-  background-color: #425d58;
+  background-color: #fafafa;
 }
 .panel-right {
-  background-color: #425d58;
+  background-color: #768d8c;
 }
 
 /* 6-1. USER ACCOUNT SIDEBAR RIGHT */
@@ -545,12 +545,12 @@ a.button_small {
   -moz-border-radius: 15px;
   border-radius: 15px;
   background-color: #eaca02;
-  color: #425d58;
+  color: #4a605f;
 }
 .user-nav ul li a {
   font-size: 14px;
   font-weight: 300;
-  color: #fafffd;
+  color: #a30000;
 }
 
 /* 6-2. MAIN NAVIGATION SIDEBAR LEFT */
@@ -603,7 +603,7 @@ a.button_small {
   display: block;
   font-size: 14px;
   font-weight: 300;
-  color: #d1d7ff;
+  color: #a30000;
   line-height: 20px;
 }
 /* NAVIGATION STYLE 2 ICONS ON ONE ROW WITH BORDER */
@@ -627,9 +627,21 @@ a.button_small {
   padding: 25px 2%;
   display: inline-block;
   float: left;
+  color: #000000;
+  background-color: #fafafa;
   text-align: center;
+
+  
   border-bottom: 1px #342e37ff solid;
   border-right: 1px #342e37ff solid;
+ 
+}
+.main_nav_icons_inline_2 ul li:hover {
+  
+  color: #fafafa;
+  background-color: #768d8c;
+  text-align: center;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
 }
 .main_nav_icons_inline_2 ul li:nth-child(2n) {
   border-right: none;
@@ -650,7 +662,7 @@ a.button_small {
 .main_nav_icons_inline_2 ul li a {
   font-size: 14px;
   font-weight: 400;
-  color: #fafffdff;
+  color: #000000;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -703,7 +715,7 @@ a.button_small {
 .main_nav_icons_inline_3 ul li a {
   font-size: 8px;
   font-weight: 400;
-  color: #fafffd;
+  color: #a30000;
   text-transform: uppercase;
 }
 .main_nav_icons_inline_3 ul li.subnav {
@@ -744,7 +756,7 @@ a.button_small {
 /* 7. PAGES LAYOUT GENERAL */
 /*===============================================*/
 .homepage {
-  background-color: #342e37;
+  background-color: #4a605f;
 }
 #pages_maincontent {
   width: 100%;
@@ -863,10 +875,15 @@ a.button_small {
   float: left;
   height: auto;
   text-align: center;
-  background-color: #fafffd;
+  background-color: #fafafa;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+}
+.toolbar-icon a:hover {
+
+  background-color: #dd2c00;
+
 }
 .toolbar-icon a img {
   display: block;
@@ -875,7 +892,7 @@ a.button_small {
   text-align: center;
 }
 .toolbar-icon a span {
-  color: #3f5761;
+  color: #000000;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.5px;
@@ -917,11 +934,11 @@ a.button_small {
   padding: 5px;
   font-weight: 300;
   color: #fafffd;
-  background-color: #fa824c;
+  background-color: #dd2c00;
   display: inline;
 }
 .slider-caption p {
-  color: #fafffdff;
+  color: #fafafa;
   font-size: 18px;
   line-height: 22px;
 }
@@ -940,7 +957,7 @@ a.button_small {
   height: 6px;
   display: inline-block;
   border: 1px solid #fafffd;
-  background: none;
+  background: #fafffd;
   opacity: 0.5;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -956,11 +973,12 @@ a.button_small {
 }
 .swiper-container .swiper-pagination-bullet-active {
   opacity: 1;
-  border: 1px solid #fa824c;
+  border: 1px solid #dd2c00;
+  background-color: #dd2c00;
 }
 .swiper-container-pages .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #fa824c;
+  background: #dd2c00;
 }
 .swiper-pagination-toolbar {
   position: absolute;
@@ -1008,14 +1026,14 @@ a.button_small {
   border-radius: 50%;
 }
 .swiper-button-next {
-  background: url(images/nav-next.png) no-repeat center #425d58;
+  background: url(images/nav-next.png) no-repeat center #a30000;
   width: 40px;
   height: 40px;
   bottom: 22%;
   right: 2.5%;
 }
 .swiper-button-prev {
-  background: url(images/nav-prev.png) no-repeat center #425d58;
+  background: url(images/nav-prev.png) no-repeat center #a30000;
   width: 40px;
   height: 40px;
   bottom: 22%;
@@ -1138,7 +1156,7 @@ ul.features_list_detailed li .feat_small_details h4 {
   font-weight: 300;
   font-size: 14px;
   letter-spacing: 0.5px;
-  background-color: #fa824c;
+  background-color: #a30000;
   padding: 10px 0;
 }
 ul.team_socials {
@@ -1210,7 +1228,7 @@ ul.music_list li h4 {
 }
 ul.music_list li h4 span {
   font-weight: 700;
-  background-color: #fa824c;
+  background-color: #a30000;
   display: inline-block;
   padding: 5px 10px;
   float: right;
@@ -1360,7 +1378,7 @@ ul.shop_items li a#addtocart {
   width: 50%;
   float: right;
   color: #fafffdff;
-  background-color: #fa824c;
+  background-color: #a30000;
   display: inline-block;
   padding: 10px 0;
   text-align: center;
@@ -1452,7 +1470,7 @@ a.next_shop {
   font-weight: 300;
   text-align: center;
   padding: 0;
-  background-color: #fa824c;
+  background-color: #a30000;
 }
 .shop_item a.shopfav {
   position: absolute;
@@ -1498,7 +1516,7 @@ a.next_shop {
   color: #375a70;
 }
 .size_selectors input[type="radio"]:checked + label {
-  background-color: #fa824c;
+  background-color: #a30000;
 }
 .color_selectors {
   width: 100%;
@@ -1578,7 +1596,7 @@ a.next_shop {
   padding: 5px 0;
   float: right;
   color: #fafffdff;
-  background-color: #fa824c;
+  background-color: #a30000;
   font-size: 12px;
   font-weight: 900;
   letter-spacing: 0.5px;
@@ -1678,7 +1696,7 @@ h4.checkout_title {
   clear: both;
   font-size: 14px;
   font-weight: 700;
-  border-left: 5px solid #fa824c;
+  border-left: 5px solid #a30000;
 }
 .order_item {
   width: 100%;
@@ -1814,7 +1832,7 @@ a.checkout {
   height: 80px;
   text-align: center;
   z-index: 999;
-  background-color: #fa824c;
+  background-color: #768d8c;
 }
 .switch_button {
   display: block;
@@ -1906,7 +1924,7 @@ ul.photo_gallery_11 li img {
   color: #2d2e3e;
 }
 .photo-categories a.active {
-  background-color: #fa824c;
+  background-color: #a30000;
 }
 
 /*===============================================*/
@@ -1945,7 +1963,7 @@ ul.photo_gallery_11 li img {
   text-align: center;
 }
 .list-block .swipeout-actions-right a:nth-child(1) {
-  background: #fa824c;
+  background: #a30000;
 }
 .list-block .swipeout-actions-right a:nth-child(2) {
   background: #21d3c5;
@@ -2030,7 +2048,7 @@ ul.posts li {
   margin: 10px 0;
   padding: 10px 0;
   text-align: center;
-  background-color: #fa824c;
+  background-color: #a30000;
   color: #000000;
   font-size: 20px;
   cursor: pointer;
@@ -2160,7 +2178,7 @@ ul.comments li {
   border: none;
   cursor: pointer;
   -webkit-appearance: none;
-  background-color: #fa824c;
+  background-color: #a30000;
 }
 .forgot_pass {
   width: 100%;
@@ -2300,7 +2318,7 @@ a.signup_twitter {
 .navbar,
 .toolbar,
 .subnavbar {
-  background: #425d58;
+  background: #4a605f;
 }
 .navbar a.link,
 .toolbar a.link,
@@ -2310,7 +2328,7 @@ a.signup_twitter {
 .picker-modal .toolbar {
   position: relative;
   width: 100%;
-  background: #425d58;
+  background: #4a605f;
 }
 .picker-modal .toolbar a {
   color: #fafffd;
@@ -2324,7 +2342,7 @@ a.signup_twitter {
   top: auto;
   height: 1px;
   width: 100%;
-  background-color: #425d58;
+  background-color: #4a605f;
   display: block;
   z-index: 15;
   -webkit-transform-origin: 50% 100%;
@@ -2339,7 +2357,7 @@ a.signup_twitter {
   right: auto;
   height: 1px;
   width: 100%;
-  background-color: #425d58;
+  background-color: #4a605f;
   display: block;
   z-index: 15;
   -webkit-transform-origin: 50% 0%;
@@ -2406,7 +2424,7 @@ i.icon.icon-back {
   text-align: center;
   cursor: pointer;
   font-size: 20px;
-  background-color: #fa824c;
+  background-color: #a30000;
   color: #fafffdff;
   border: none;
   cursor: pointer;
